@@ -1,0 +1,125 @@
+.container-banner-benefit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-card-banner-benefit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #de5a53;
+  margin: 0px 38.9px 0px 43.7px;
+  padding: 29px 0px;
+}
+
+.container-card-banner-benefit-p1 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  width: 100%;
+  max-width: 1091.42px;
+}
+
+.container-card-banner-benefit-1 {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 0px 21px;
+  border: 1px solid #ffffff;
+  gap: 20px;
+}
+
+.container-card-banner-benefit-1-number {
+  font-family: "Oswald", sans-serif;
+  font-size: 140px;
+  font-weight: 250;
+  line-height: 207.48px;
+  text-align: left;
+}
+
+.container-card-banner-benefit-1 h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.8px;
+  text-align: left;
+  width: 148px;
+}
+
+.container-card-banner-benefit-1 div {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-card-banner-benefit-1 div p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.64px;
+  text-align: left;
+  width: 155px;
+}
+
+.container-card-banner-benefit-2-1 {
+  display: flex;
+  color: #ffffff;
+}
+
+.container-card-banner-benefit-2-1-item-1 {
+  display: flex;
+  align-items: center;
+  gap: 20.94px;
+}
+
+.container-card-banner-benefit-2-1-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 22.93px;
+  border: 1px solid #ffffff;
+}
+
+.container-card-banner-benefit-2-1-item-1-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.72px;
+  text-align: right;
+}
+
+.container-card-banner-benefit-2-1-item p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.64px;
+  text-align: left;
+}
+
+.container-card-banner-benefit-2-slider {
+  border: 1px solid #ffffff;
+  width: 750px;
+}
+
+.container-card-banner-benefit-2-slider .slick-track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.container-card-banner-benefit-2-slider-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  width: 207px;
+}
+
+.container-card-banner-benefit-2-slider-item a p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.68px;
+}

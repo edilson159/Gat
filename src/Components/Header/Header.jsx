@@ -17,7 +17,9 @@ const Header = () => {
               >
                 <img
                   className={
-                    name === "../imgs/logo.svg" && "container-card-header-1-img"
+                    name === "../imgs/logo.svg"
+                      ? "container-card-header-1-img"
+                      : ""
                   }
                   src={icon}
                   alt=""

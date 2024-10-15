@@ -63,6 +63,54 @@ const Data = [
       },
     ],
   },
+  {
+    bannerBenefit: [
+      {
+        number: "10",
+        title: "Benefício Principal",
+        description: "Lorem ipsum dolor sit amet, consectetur.",
+      },
+      {
+        img: "../imgs/imgBenefit.svg",
+        title: "Benefício Secundário",
+        description: "Lorem ipsum dolor sit amet, consectetur.",
+      },
+      {
+        img: "../imgs/imgBenefit.svg",
+        title: "Benefício Secundário",
+        description: "Lorem ipsum dolor sit amet, consectetur.",
+      },
+      {
+        img: "../imgs/imgBenefit.svg",
+        title: "Benefício Secundário",
+        description: "Lorem ipsum dolor sit amet, consectetur.",
+      },
+      {
+        slider: [
+          {
+            icon: "../imgs/iconPaw.svg",
+            name: "Benefício Terciário",
+            link: "//",
+          },
+          {
+            icon: "../imgs/iconPaw.svg",
+            name: "Lisan Al Gaib",
+            link: "//",
+          },
+          {
+            icon: "../imgs/iconPaw.svg",
+            name: "Benefício Terciário",
+            link: "//",
+          },
+          {
+            icon: "../imgs/iconPaw.svg",
+            name: "Benefício Terciário",
+            link: "//",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default Data;
