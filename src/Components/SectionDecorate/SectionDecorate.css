@@ -1,0 +1,67 @@
+.container-section-decorate {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 94px 0px 46px 0px;
+}
+
+.background {
+  position: absolute;
+  background-image: url("../imgs/imgBackgroundDecorate.svg");
+  background-repeat: no-repeat;
+  background-size: 272px;
+  width: 672px;
+  height: 272px;
+  top: 32px;
+  left: 295px;
+}
+
+.container-section-decorate .container-section-decorate-card-1 h2 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 88.2px;
+  text-align: left;
+  color: #373737;
+  position: relative;
+  z-index: 1000000;
+  padding-left: 129px;
+}
+
+.container-section-decorate-card-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 55.94px;
+  width: 505px;
+  padding-right: 125px;
+}
+
+.container-section-decorate-card-2-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.container-section-decorate-card-2-1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #373737;
+}
+
+.container-section-decorate-card-2-1 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  color: #373737;
+  width: 295px;
+  height: 45px;
+  border-radius: 29px;
+  border: 1px solid #000000;
+}

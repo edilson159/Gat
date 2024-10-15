@@ -301,6 +301,18 @@ const Data = [
       },
     ],
   },
+  {
+    sectionDecorate: [
+      {
+        title: "Decorar Arranhar & Relaxar",
+        video:
+          ' width="560" height="315" src="https://www.youtube.com/embed/LMD6MqwErzc?si=xmbn2cZOF_-AdVt6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPlicy="strict-origin-when-cross-origin" allowfullscreen',
+        description:
+          "Hammer can low idea of. Lunch able design items needle here stop drive. / or devil pants game close. Prioritize out key view / vendor we 've. 4-blocker gave shift ideal based post.'",
+        button: "MAIS SOBRE A GAT",
+      },
+    ],
+  },
 ];
 
 export default Data;
