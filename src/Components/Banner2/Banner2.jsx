@@ -52,7 +52,7 @@ const Banner2 = () => {
                 <button>{button}</button>
               </div>
 
-              <img src={img} alt="" />
+              <img src={img} className="container-banner2-card-2-img" alt="" />
             </React.Fragment>
           ))}
       </div>
