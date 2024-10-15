@@ -7,11 +7,20 @@ const SliderProducts = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     arrows: false,
     responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+
       {
         breakpoint: 1024,
         settings: {
@@ -39,6 +48,7 @@ const SliderProducts = () => {
       },
     ],
   };
+
   return (
     <main className="container-slider-products">
       <div className="container-slider-products-apresentation">
