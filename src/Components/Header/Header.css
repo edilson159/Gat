@@ -114,6 +114,10 @@
   color: #efefef;
 }
 
+.container-card-header-3-p1 input {
+  caret-color: #ffffff;
+}
+
 .container-card-header-3 .container-card-header-3-p2 {
   display: flex;
   justify-content: center;
@@ -123,7 +127,7 @@
 }
 
 .container-card-header-3 .user {
-  padding: 11px;
+  padding: 0px 11px;
 }
 
 .container-card-header-3 .cart {

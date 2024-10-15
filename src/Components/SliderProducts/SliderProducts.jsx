@@ -64,57 +64,57 @@ const SliderProducts = () => {
               </div>
             </React.Fragment>
           ))}
-        <div className="container-slider-products-carousel">
-          <Slider {...settings}>
-            {Data.find((e) => e.carousel)
-              .carousel.slice(1, 5)
-              .map(
-                (
-                  {
-                    discount,
-                    span,
-                    tag,
-                    img,
-                    title,
-                    oldPrice,
-                    currentPrice,
-                    variationColor,
-                    link,
-                  },
-                  index
-                ) => (
-                  <a
-                    href={link}
-                    key={index}
-                    className="container-slider-products-carousel-card"
-                  >
-                    <div className="discount">
-                      <p>{discount}</p>
-                      <span>{span}</span>
-                    </div>
-                    <div className="tag">
-                      <p>{tag}</p>
-                    </div>
-                    <img
-                      className="container-slider-products-carousel-card-img"
-                      src={img}
-                      alt=""
-                    />
-                    <div className="description">
-                      <div className="description-1">
-                        <h2>{title}</h2>
-                        <div className="description-price">
-                          <p className="old">{oldPrice}</p>
-                          <p className="current">{currentPrice}</p>
-                        </div>
+      </div>
+      <div className="container-slider-products-carousel">
+        <Slider {...settings}>
+          {Data.find((e) => e.carousel)
+            .carousel.slice(1, 5)
+            .map(
+              (
+                {
+                  discount,
+                  span,
+                  tag,
+                  img,
+                  title,
+                  oldPrice,
+                  currentPrice,
+                  variationColor,
+                  link,
+                },
+                index
+              ) => (
+                <a
+                  href={link}
+                  key={index}
+                  className="container-slider-products-carousel-card"
+                >
+                  <div className="discount">
+                    <p>{discount}</p>
+                    <span>{span}</span>
+                  </div>
+                  <div className="tag">
+                    <p>{tag}</p>
+                  </div>
+                  <img
+                    className="container-slider-products-carousel-card-img"
+                    src={img}
+                    alt=""
+                  />
+                  <div className="description">
+                    <div className="description-1">
+                      <h2>{title}</h2>
+                      <div className="description-price">
+                        <p className="old">{oldPrice}</p>
+                        <p className="current">{currentPrice}</p>
                       </div>
-                      <img src={variationColor} alt="" />
                     </div>
-                  </a>
-                )
-              )}
-          </Slider>
-        </div>
+                    <img src={variationColor} alt="" />
+                  </div>
+                </a>
+              )
+            )}
+        </Slider>
       </div>
     </main>
   );

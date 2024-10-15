@@ -1,0 +1,129 @@
+.container-banner2 {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.container-banner2 .container-banner2-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 34px;
+}
+
+.container-banner2-card-1-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.container-banner2-card-1-names {
+  display: flex;
+  gap: 16.54px;
+}
+
+.container-banner2-card-1-names-itens {
+  display: flex;
+  align-items: center;
+  border-radius: 29px;
+  gap: 10px;
+  padding: 0px 24.63px;
+  height: 59px;
+  border: 1px solid #000000;
+}
+
+.container-banner2-card-1-names-itens p {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.container-banner2-card-2 {
+  position: relative;
+}
+
+.container-banner2-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: #efefef;
+  position: absolute;
+  z-index: 1000000;
+  border-radius: 29px;
+}
+
+.container-number-indication-item-1 {
+  top: 328px;
+  left: 272px;
+}
+.container-number-indication-item-2 {
+  top: 356px;
+  left: 441px;
+}
+.container-number-indication-item-3 {
+  top: 78px;
+  left: 540px;
+}
+.container-number-indication-item-4 {
+  top: 153px;
+  right: 460px;
+}
+.container-number-indication-item-5 {
+  top: 327px;
+  right: 378px;
+}
+
+.container-banner2-card-2-description {
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #ffffff;
+  padding: 33px 20px 22px 32px;
+  border: 1px solid #000000;
+}
+
+.container-banner2-card-2-description .title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.8px;
+  text-align: left;
+  width: 201px;
+}
+
+.container-banner2-card-2-description p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.64px;
+  text-align: left;
+  width: 250px;
+}
+
+.container-banner2-card-2-description button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sora", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.42px;
+  text-align: left;
+  width: 182px;
+  height: 45px;
+  left: 1010px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 29px;
+  background-color: transparent;
+  border: 1px solid #000000;
+}

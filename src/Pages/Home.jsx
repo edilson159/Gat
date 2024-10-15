@@ -1,4 +1,5 @@
 import Banner1 from "../Components/Banner1/Banner1";
+import Banner2 from "../Components/Banner2/Banner2";
 import BannerBenefit from "../Components/BannerBenefit/BannerBenefit";
 import Header from "../Components/Header/Header";
 import SliderProducts from "../Components/SliderProducts/SliderProducts";
@@ -12,6 +13,7 @@ const Home = () => {
       <Spacing />
       <BannerBenefit />
       <SliderProducts />
+      <Banner2 />
     </>
   );
 };
