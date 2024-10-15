@@ -111,6 +111,49 @@ const Data = [
       },
     ],
   },
+  {
+    carousel: [
+      {
+        name: "Queri dinho ",
+        span: "deles",
+        button: "VER TUDO",
+        link: "//",
+      },
+      {
+        discount: "10%",
+        span: "OFF",
+        tag: "LANÇAMENTO",
+        img: "../imgs/imgProducts.svg",
+        title: "Toca Túnel Módulos",
+        oldPrice: "R$00,00",
+        currentPrice: "R$0000,00",
+        variationColor: "../imgs/imgVariation.svg",
+        link: "//",
+      },
+      {
+        discount: "10%",
+        span: "OFF",
+        tag: "LANÇAMENTO",
+        img: "../imgs/imgProducts.svg",
+        title: "Toca Túnel Módulos",
+        oldPrice: "R$00,00",
+        currentPrice: "R$0000,00",
+        variationColor: "../imgs/imgVariation.svg",
+        link: "//",
+      },
+      {
+        discount: "10%",
+        span: "OFF",
+        tag: "LANÇAMENTO",
+        img: "../imgs/imgProducts.svg",
+        title: "Toca Túnel Módulos",
+        oldPrice: "R$00,00",
+        currentPrice: "R$0000,00",
+        variationColor: "../imgs/imgVariation.svg",
+        link: "//",
+      },
+    ],
+  },
 ];
 
 export default Data;

@@ -1,0 +1,161 @@
+.container-slider-products {
+  position: relative;
+  margin-top: 10px;
+  background-image: url("../imgs/imgBackgroundProducts.svg");
+  background-repeat: no-repeat;
+}
+
+.container-slider-products-apresentation {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  padding: 110px 0px 0px 20px;
+}
+
+.container-slider-products-apresentation-name {
+  text-transform: uppercase;
+  color: #373737;
+  width: 100px;
+}
+
+.container-slider-products-apresentation
+  .container-slider-products-apresentation-name
+  p {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 74px;
+  text-align: left;
+}
+.container-slider-products-apresentation
+  .container-slider-products-apresentation-name
+  span {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: left;
+}
+
+.container-slider-products-apresentation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 182px;
+  height: 45px;
+  border-radius: 29px;
+  border: 1px solid #000000;
+}
+
+.container-slider-products-apresentation-button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  color: #000000;
+}
+
+.container-slider-products-carousel {
+  position: absolute;
+  top: 67px;
+  right: 10px;
+  width: 960px;
+}
+
+.container-slider-products-carousel .slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.container-slider-products-carousel-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  height: 436px;
+  gap: 57px;
+}
+
+.container-slider-products-carousel-card .discount {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #4da1b1;
+  width: 57px;
+  height: 21px;
+}
+
+.container-slider-products-carousel-card .discount p {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.6px;
+  text-align: right;
+}
+.container-slider-products-carousel-card .discount span {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12.6px;
+  text-align: right;
+}
+
+.container-slider-products-carousel-card .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 36px;
+  background-color: #e5675d;
+  width: 93px;
+  height: 21px;
+}
+
+.container-slider-products-carousel-card .tag p {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.6px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.container-slider-products-carousel-card-img {
+  margin-top: 80px;
+}
+
+.container-slider-products-carousel-card .description {
+  position: relative;
+  display: flex;
+  text-align: start;
+  width: 100%;
+}
+
+.container-slider-products-carousel-card .description-1 h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: left;
+  width: 88px;
+  color: #373737;
+}
+
+.container-slider-products-carousel-card .description-1 .description-price {
+  display: flex;
+  gap: 5px;
+  padding-top: 12px;
+  color: #373737;
+}
+
+.container-slider-products-carousel-card .description-price .old {
+  text-decoration: line-through;
+}
+
+.container-slider-products-carousel-card .description img {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+}
