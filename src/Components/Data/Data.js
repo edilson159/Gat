@@ -1,39 +1,65 @@
 const Data = [
   {
-    Header: [
+    header: [
       {
         name: "../imgs/logo.svg",
         icon: "../imgs/iconLogo.svg",
+        link: "//",
       },
       {
-        name: "podutos",
+        name: "produtos",
         icon: "../imgs/iconMenu.svg",
+        link: "//",
       },
       {
         name: "coleções",
         icon: "../imgs/iconMenu.svg",
+        link: "//",
       },
       {
         name: "blog",
+        link: "//",
       },
       {
         name: "lookbook",
+        link: "//",
       },
       {
         name: "sobre a Gat",
+        link: "//",
       },
       {
         name: " wishlist",
+        link: "//",
       },
       {
+        input: "search",
         placeholder: "digite aqui o que procura",
-        icon: "../imgs/iconLogo.svg",
+        icon: "../imgs/search.svg",
       },
       {
         icon: "../imgs/user.svg",
+        link: "//",
       },
       {
-        icon: "../imgs/iconLogo.svg",
+        icon: "../imgs/cart.svg",
+        link: "//",
+      },
+    ],
+  },
+  {
+    banner1: [
+      {
+        img: "../imgs/banner1.svg",
+        button: "VER COLEÇÃO",
+      },
+      {
+        img: "../imgs/banner1.svg",
+        button: "VER COLEÇÃO",
+      },
+      {
+        img: "../imgs/banner1.svg",
+        button: "VER COLEÇÃO",
       },
     ],
   },

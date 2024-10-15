@@ -1,0 +1,74 @@
+.container-banner1 {
+}
+
+.container-banner1 .container-card-banner1 {
+  position: relative;
+  width: 100%;
+}
+
+.container-card-banner1 img {
+  width: 100%;
+}
+
+.container-banner1 .slick-track {
+  display: flex;
+  gap: 12px;
+}
+
+.container-banner1 button.slick-arrow {
+  width: 59px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100000;
+}
+
+.container-banner1 button.slick-arrow::before {
+  background-color: transparent;
+  opacity: 0;
+}
+
+.container-banner1 button.slick-arrow.slick-next {
+  background-image: url("../imgs/arrowRight.svg");
+  right: 124px;
+}
+.container-banner1 button.slick-arrow.slick-prev {
+  background-image: url("../imgs/arrowLeft.svg");
+  left: 124px;
+}
+
+.container-card-banner1 button {
+  position: absolute;
+  left: 29.6875rem;
+  bottom: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 157px;
+  height: 46px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  border-radius: 60px;
+  border: 1px solid #373737;
+}
+
+.container-banner1 ul.slick-dots {
+  padding-left: 120px;
+  bottom: 29px;
+  z-index: 100000;
+  text-align: start;
+  width: unset;
+}
+
+.container-banner1 ul.slick-dots .slick-active button::before {
+  font-size: 16px;
+}
+
+.container-banner1 ul.slick-dots button::before {
+  font-size: 13px;
+  opacity: unset;
+}
