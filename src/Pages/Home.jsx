@@ -3,6 +3,7 @@ import Banner2 from "../Components/Banner2/Banner2";
 import BannerBenefit from "../Components/BannerBenefit/BannerBenefit";
 import Header from "../Components/Header/Header";
 import SectionDecorate from "../Components/SectionDecorate/SectionDecorate";
+import ShowcaseCats from "../Components/ShowcaseCats/ShowcaseCats";
 import SliderProducts from "../Components/SliderProducts/SliderProducts";
 import Spacing from "../Components/Spacing/Spacing";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <SliderProducts />
       <Banner2 />
       <SectionDecorate />
+      <ShowcaseCats />
     </>
   );
 };

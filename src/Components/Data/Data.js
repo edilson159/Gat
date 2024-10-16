@@ -313,6 +313,73 @@ const Data = [
       },
     ],
   },
+  {
+    showcaseCats: [
+      {
+        description:
+          "Faça parte da comunidade de gatunos que amam design e papelão compartilhando a hashtag:",
+        title: "#AdoradoresDePapelão",
+        img: "../imgs/imgCat1.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat2.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat3.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat4.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat1.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat2.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat3.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat4.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat1.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat2.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat3.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+      {
+        img: "../imgs/imgCat4.svg",
+        icon: "../imgs/iconHeart.svg",
+        number: "10mil",
+      },
+    ],
+  },
 ];
 
 export default Data;

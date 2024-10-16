@@ -1,0 +1,63 @@
+.container-showcase-cats {
+}
+
+.container-showcase-cats-card-1 {
+  position: relative;
+  top: 39px;
+  z-index: 10000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 14px;
+}
+
+.container-showcase-cats-card-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #373737;
+  width: 500px;
+}
+
+.container-showcase-cats-card-1 h2 {
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 94.5px;
+  text-align: left;
+  color: #7eb4c8;
+}
+
+.container-showcase-cats-card-2 .slick-track {
+  display: flex;
+  gap: 19px;
+}
+
+.container-showcase-cats-card-2-1 {
+  position: relative;
+}
+
+.container-showcase-cats-card-2-1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 10px;
+  right: 7px;
+}
+
+.container-showcase-cats-card-2-1 div p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container-showcase-cats-card-2-img {
+  width: 100%;
+}
