@@ -1,0 +1,96 @@
+.container-register {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 52px;
+}
+
+.container-register-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 15px;
+  margin: 0px 20px;
+  padding-top: 40px;
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+
+.container-register-card-1 {
+}
+.container-register-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+
+.container-register-card-2 h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  text-align: left;
+  color: #373737;
+}
+
+.container-register-card-2-1 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.container-register-card-2-1-description {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 295px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #373737;
+}
+
+.paragraph2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #373737;
+}
+
+.container-register-card-2-1-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.container-register-card-2-1-inputs input {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+}
+
+.container-register-card-2-1-inputs input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #373737;
+  text-transform: uppercase;
+}
+
+.container-register-card-2-1-inputs button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 39px;
+  border: 1px solid #000000;
+  border-radius: 29px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  color: #373737;
+}

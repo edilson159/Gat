@@ -380,6 +380,22 @@ const Data = [
       },
     ],
   },
+  {
+    register: [
+      {
+        img: "../imgs/imgRegister.svg",
+        title: "NEWSLETTER",
+        paragraph1: "CADASTRE-SE E GANHE 10% OFF NA SUA PRIMEIRA COMPRA",
+        paragraph2:
+          "Seja a primeira a receber lançamentos, novidades e promoções.",
+        input1: "text",
+        placeholder1: "Nome do seu pet",
+        input2: "email",
+        placeholder2: "Seu email",
+        button: "CADASTRAR",
+      },
+    ],
+  },
 ];
 
 export default Data;
