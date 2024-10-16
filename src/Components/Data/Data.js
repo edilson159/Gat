@@ -396,6 +396,107 @@ const Data = [
       },
     ],
   },
+  {
+    footer: [
+      {
+        logo: "../imgs/logoFooter.svg",
+        names: [
+          {
+            name: "PRODUTOS",
+            link: "//",
+          },
+          {
+            name: "COLEÇÕES",
+            link: "//",
+          },
+          {
+            name: "LOOKBOOK",
+            link: "//",
+          },
+          {
+            name: "SOBRE",
+            link: "//",
+          },
+          {
+            name: "WISHLIST",
+            link: "//",
+          },
+          {
+            name: "BLOG",
+            link: "//",
+          },
+        ],
+      },
+      {
+        name: "FORMAS DE PAGAMENTO",
+        img: "../imgs/ImgPayment.svg",
+      },
+      {
+        name: "CERTIFICADOS E SEGURANÇA",
+        imgs: [
+          {
+            img: "../imgs/imgSecurity1.svg",
+          },
+          {
+            img: "../imgs/imgSecurity2.svg",
+          },
+          {
+            img: "../imgs/imgSecurity3.svg",
+          },
+        ],
+      },
+      {
+        title: "AJUDA",
+        names: [
+          {
+            name: "FAQ ",
+          },
+          {
+            name: "Sobre nossos produtos",
+          },
+          {
+            name: "Trocas e devoluções",
+          },
+          {
+            name: " Entregas ",
+          },
+          {
+            name: "Indique e ganhe",
+          },
+          {
+            name: "Garantias",
+          },
+        ],
+      },
+      {
+        title: "CONTATO",
+        name: "WhatsApp - (51) 9999-9999    E-mail - ajuda@gat.com.br",
+      },
+      {
+        title: "REDES SOCIAIS",
+        imgs: [
+          {
+            img: "../imgs/imgInst.svg",
+          },
+          {
+            img: "../imgs/imgYout.svg",
+          },
+          {
+            img: "../imgs/imgLinke.svg",
+          },
+          {
+            img: "../imgs/imgFaceb.svg",
+          },
+        ],
+      },
+      {
+        name: "© 2024, GAT. TODOS OS DIREITOS RESERVADOS.",
+      },
+      {
+        name: "GAT  LTDA. | R. Ondina Carvalheira Peixoto, 300 - Chácaras Palmeiras | Cataguases - MG | CEP 36774-550",
+      },
+    ],
+  },
 ];
 
 export default Data;
