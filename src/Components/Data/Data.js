@@ -112,6 +112,44 @@ const Data = [
     ],
   },
   {
+    showcaseCollections: [
+      {
+        name: "ver todas",
+        title: "COLEÇÕES",
+        link: "//",
+        informations: [
+          {
+            title: "MINIMALISMO",
+            button: "EXPLORAR",
+            img: "../imgs/imgCollections.svg",
+            imgMain: "../imgs/imgCollectionsMain.svg",
+            description:
+              "Also reality power discussion buy-in closest goto model. Have protocol at long practices low-hanging data most driver's.",
+            link: "//",
+          },
+          {
+            title: "MINIMALISMO",
+            button: "EXPLORAR",
+            img: "../imgs/imgCollections.svg",
+            imgMain: "../imgs/imgCollectionsMain.svg",
+            description:
+              "Also reality power discussion buy-in closest goto model. Have protocol at long practices low-hanging data most driver's.",
+            link: "//",
+          },
+          {
+            title: "MINIMALISMO",
+            button: "EXPLORAR",
+            img: "../imgs/imgCollections.svg",
+            imgMain: "../imgs/imgCollectionsMain.svg",
+            description:
+              "Also reality power discussion buy-in closest goto model. Have protocol at long practices low-hanging data most driver's.",
+            link: "//",
+          },
+        ],
+      },
+    ],
+  },
+  {
     carousel: [
       {
         name: "Queri dinho ",

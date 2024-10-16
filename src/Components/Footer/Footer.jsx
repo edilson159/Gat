@@ -2,12 +2,6 @@ import Data from "../Data/Data";
 import "./Footer.css";
 
 const Footer = () => {
-  console.log(
-    Data.find((e) => e.footer)
-      .footer.slice(0, 3)
-      .filter((e) => e.names === e.names)
-  );
-
   return (
     <footer className="container-footer">
       <div className="container-footer-card-1">

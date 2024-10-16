@@ -70,6 +70,10 @@
   color: #373737;
 }
 
+.container-footer-card-1-1-description-2-1 img {
+  filter: grayscale(100%);
+}
+
 .container-footer-card-1-1-description-2-2 {
   display: flex;
   flex-direction: column;
@@ -85,6 +89,10 @@
   line-height: 25px;
   text-align: left;
   color: #373737;
+}
+
+.container-footer-card-1-1-description-2-2 img {
+  filter: grayscale(100%);
 }
 
 .container-footer-card-1-1-description-2-2 div {
@@ -162,7 +170,7 @@
 .container-footer-card-2 div {
   display: flex;
   justify-content: space-between;
-  margin: 0px 20px;
+  margin: 0px 27px;
   width: 100%;
 }
 

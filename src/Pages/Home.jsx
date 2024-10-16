@@ -6,6 +6,7 @@ import Header from "../Components/Header/Header";
 import Register from "../Components/Register/Register";
 import SectionDecorate from "../Components/SectionDecorate/SectionDecorate";
 import ShowcaseCats from "../Components/ShowcaseCats/ShowcaseCats";
+import ShowcaseCollections from "../Components/ShowcaseCollections/ShowcaseCollections";
 import SliderProducts from "../Components/SliderProducts/SliderProducts";
 import Spacing from "../Components/Spacing/Spacing";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Banner1 />
       <Spacing />
       <BannerBenefit />
+      <ShowcaseCollections />
       <SliderProducts />
       <Banner2 />
       <SectionDecorate />
