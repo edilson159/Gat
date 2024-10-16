@@ -6,11 +6,11 @@ const ShowcaseCats = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 4,
     initialSlide: 2,
     centerMode: true,
-    centerPadding: "0px",
+    centerPadding: "50px",
     arrows: false,
     responsive: [
       {
