@@ -3,9 +3,10 @@
   width: 100%;
   margin-top: 80px;
   height: 100%;
-  background-image: url("../imgs/imgBackgroundCollections1.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-image: url("../imgs/imgBackgroundCollections1.svg"),
+    url("../imgs/imgBackgroundCollections2.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 270px bottom 110px, right 157px top 66px;
 }
 
 .container-showcase-collections-card-1 {
@@ -122,10 +123,17 @@
   text-align: left;
 }
 
+.container-showcase-collections-card-2-1-2 button {
+  padding: 12px 24px;
+  border-radius: 29px;
+  border: 1px solid #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+}
+
 .container-img-main {
-  background-image: url("../imgs/imgBackgroundCollections2.svg");
-  background-repeat: no-repeat;
-  background-position: top center;
   padding-top: 100px;
   margin: 85px 70px 0px 31px;
 }

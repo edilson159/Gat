@@ -8,7 +8,6 @@ const SectionDecorate = () => {
       {Data.find((e) => e.sectionDecorate).sectionDecorate.map(
         ({ title, description, button }, index) => (
           <React.Fragment key={index}>
-            <div className="background"></div>
             <div className="container-section-decorate-card-1">
               <h2>{title}</h2>
             </div>

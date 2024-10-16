@@ -4,17 +4,10 @@
   justify-content: space-around;
   width: 100%;
   padding: 94px 0px 46px 0px;
-}
-
-.background {
-  position: absolute;
   background-image: url("../imgs/imgBackgroundDecorate.svg");
   background-repeat: no-repeat;
   background-size: 272px;
-  width: 672px;
-  height: 272px;
-  top: 32px;
-  left: 295px;
+  background-position: top 42px left 294px;
 }
 
 .container-section-decorate .container-section-decorate-card-1 h2 {

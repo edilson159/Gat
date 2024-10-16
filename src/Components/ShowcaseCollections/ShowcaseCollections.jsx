@@ -29,20 +29,19 @@ const ShowcaseCollections = () => {
                 {informations &&
                   informations.map(
                     ({ title, img, imgMain, description, button }, index) => (
-                      <div
-                        key={index}
-                        className="container-showcase-collections-card-2-1"
-                      >
-                        <div className="container-showcase-collections-card-2-1-1">
-                          <h2>{title}</h2>
-                        </div>
-                        <img className="img" src={img} alt="" />
-                        <div className="container-showcase-collections-card-2-1-2">
-                          <p>{description}</p>
-                          <button>{button}</button>
-                        </div>
-                        <div className="container-img-main">
-                          <img className="img-main" src={imgMain} alt="" />
+                      <div key={index}>
+                        <div className="container-showcase-collections-card-2-1">
+                          <div className="container-showcase-collections-card-2-1-1">
+                            <h2>{title}</h2>
+                          </div>
+                          <img className="img" src={img} alt="" />
+                          <div className="container-showcase-collections-card-2-1-2">
+                            <p>{description}</p>
+                            <button>{button}</button>
+                          </div>
+                          <div className="container-img-main">
+                            <img className="img-main" src={imgMain} alt="" />
+                          </div>
                         </div>
                       </div>
                     )

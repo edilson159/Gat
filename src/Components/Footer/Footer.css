@@ -170,7 +170,7 @@
 .container-footer-card-2 div {
   display: flex;
   justify-content: space-between;
-  margin: 0px 27px;
+  margin: 0px 25px;
   width: 100%;
 }
 
@@ -179,5 +179,4 @@
   font-weight: 400;
   line-height: 25px;
   text-align: left;
-  color: #373737;
 }
