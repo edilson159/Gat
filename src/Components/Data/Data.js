@@ -488,21 +488,27 @@ const Data = [
         names: [
           {
             name: "FAQ ",
+            link: "//",
           },
           {
             name: "Sobre nossos produtos",
+            link: "//",
           },
           {
             name: "Trocas e devoluções",
+            link: "//",
           },
           {
             name: " Entregas ",
+            link: "//",
           },
           {
             name: "Indique e ganhe",
+            link: "//",
           },
           {
             name: "Garantias",
+            link: "//",
           },
         ],
       },

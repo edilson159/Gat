@@ -74,8 +74,10 @@ const Footer = () => {
                     <h2>{title}</h2>
                     {names && (
                       <div className="container-footer-card-1-2-1-names">
-                        {names.map(({ name }, index) => (
-                          <p key={index}>{name}</p>
+                        {names.map(({ name, link }, index) => (
+                          <a key={index} href={link}>
+                            {name}
+                          </a>
                         ))}
                       </div>
                     )}
