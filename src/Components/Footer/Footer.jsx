@@ -75,7 +75,7 @@ const Footer = () => {
                     {names && (
                       <div className="container-footer-card-1-2-1-names">
                         {names.map(({ name, link }, index) => (
-                          <a key={index} href={link}>
+                          <a className="teste" key={index} href={link}>
                             {name}
                           </a>
                         ))}
